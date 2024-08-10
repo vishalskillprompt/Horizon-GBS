@@ -1,3 +1,47 @@
+### 1. Introduction to HTML
+
+![ HTML, CSS, JS](./assets/car.png)
+
+![define structure of webpage using html](./assets/introduction-to-html.png)
+
+- **HTML**: Hypertext Markup Language
+
+<hr/>
+
+### 2. Basic Structure of HTML Document
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <h1>My First Heading</h1>
+    <p>My first paragraph.</p>
+  </body>
+</html>
+```
+
+![basic structure of html document](./assets/html-basic-structure.png)
+
+![DOCTYPE](./assets/doctype.png)
+
+<hr/>
+
+### 3. Basic tag#1
+
+- heading tags with align attribute (h1- h6)
+- paragraph tag (p)
+- divison tag (div)
+- break line (br)
+- horizontal line (hr)
+- Formatting Text (b, i, u, mark, sup, sub, em, blockquote, preformatted)
+- address tag (address)
+- marquee tag (marquee)
+- comments
+
+```html
 <!DOCTYPE html>
 <head>
     <title>first page</title>
@@ -17,19 +61,20 @@
         a<sup>2</sup>b<sup>2</sup>
         H<sub>2</sub>O
         This is <em>emphasized</em> text.
-        <blockquote> 
+        <blockquote>
             This is a blockquote. It is used to highlight a large section of quoted text.
         </blockquote>
         <pre>
             This is preformatted text.
             It preserves whitespace and line breaks.
-        </pre>          
+        </pre>
     </div>
     <address>
         Contact us at: <a href="mailto:support@example.com">support@example.com</a><br>
         1234 Main St, Anytown, USA
-    </address> 
+    </address>
     <marquee direction="left">Scrolling Text</marquee>
-     
+
 </body>
 </html>
+```

@@ -31,12 +31,12 @@
 
 ### 3. Overview of various internet & web technologies
 
-- **Internet**: A global network that connects billions of computers across the world with each other and to the World Wide Web.
-  ![internet](./assets/internet.png)
-
 - **World Wide Web (WWW)**:
   World Wide Web, which is also known as a Web, is a collection of websites or web
   pages stored in web servers and connected to local computers through the internet.
+
+- **Internet**: A global network of interconnected computers that communicate using standard protocols.
+  ![internet](./assets/internet.png)
 
 **Covers various aspects:**
 
@@ -46,7 +46,7 @@
 2. **Networking**: Wi-Fi provides wireless internet access (e.g., connecting to home networks).
 
 3. **Web Technologies**:
-   ![ HTML, CSS, JS](./assets/car.png)
+   HTML, CSS and JS
 
 4. **Web Hosting**: GoDaddy and AWS provide server space to host websites (e.g., company websites, e-commerce sites).
 
@@ -57,3 +57,10 @@
 7. **Search Engines**: Google and Bing help find information online (e.g., searching for recipes).
 
 8. **Security**: Antivirus software protect networks and devices from threats (e.g., Antivirus).
+
+<hr/>
+
+### 4. Content Management System (CMS)
+
+- Software platform that allows users to create, manage, and modify content on a website without needing much technical knowledge.
+- Example: Wordpress, Wix, Joomla, etc

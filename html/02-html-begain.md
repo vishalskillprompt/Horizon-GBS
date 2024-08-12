@@ -54,7 +54,7 @@
     <hr/>
     <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> Id, accusantium rerum unde incidunt corrupti eius voluptate sint optio doloremque saepe aut minus iste deserunt quod officiis voluptatem ducimus magni. Tempore.</div>
     <div>
-        <h1>My nam is <b>xyz</b> and my address is <i><u>butwal</u></i></h1>
+        <h1>My nam is <b>xyz</b> and my address is <i>butwal</u></i></h1>
     </div>
     <div>
         <mark>Highlighted text</mark>

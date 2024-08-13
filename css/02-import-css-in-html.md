@@ -1,24 +1,21 @@
-# How to import CSS in HTML ?
+### 2. How to import CSS in HTML ?
 
 - CSS can be written in three different ways in HTML.
 
-### Inline
+### 2.1 Inline
 
 - Create index.html file
 
 **Code**
 
 ```html
-<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inline CSS</title>
   </head>
   <body>
-    <div style="background-color: antiquewhite">
-      <h1 style="color: blueviolet">How to write inline CSS?</h1>
+    <div style="background-color: antiquewhite; padding-top: 10px">
+      <p style="color: blueviolet">How to write inline CSS?</p>
     </div>
   </body>
 </html>
@@ -27,7 +24,7 @@
 **Output**
 ![output](./assets/inline_output.png)
 
-### Internal
+### 2.2 Internal
 
 - Create index.html file
 - Write CSS in \<style> tag
@@ -38,27 +35,40 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Internal CSS</title>
     <style>
-      div {
-        background-color: antiquewhite;
-      }
-      h1 {
-        color: blueviolet;
+      #div1 {
+        color: red;
       }
     </style>
   </head>
   <body>
     <div>
       <h1>How to write internal CSS?</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, ratione
+        eius consectetur, voluptatibus tenetur amet doloremque quisquam beatae
+        debitis distinctio possimus. Quia, nostrum, iure doloremque cum corporis
+        libero alias accusamus repellat, amet fugiat molestias deserunt in
+        magni. Suscipit autem animi, voluptate excepturi aliquam molestiae harum
+        quaerat. Soluta et modi ea, dolor dolores nobis id perspiciatis dolorum
+        dolore voluptas harum, sapiente nisi, excepturi ducimus tenetur dolorem
+        molestias at consequuntur nihil sit odio commodi. Beatae provident
+        aliquid reprehenderit eum porro? Molestias necessitatibus voluptates
+        totam iste in ad dolorum nobis corrupti, quas dicta dolor similique
+        error libero velit veritatis soluta saepe asperiores fuga.
+      </p>
+      <div id="div1">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias,
+        eligendi.
+      </div>
+      <button>Submit</button>
     </div>
   </body>
 </html>
 ```
 
-### External
+### 2.3 External
 
 - Create index.html file
 - Create app.css file
@@ -73,8 +83,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>External CSS</title>
     <link rel="stylesheet" href="./app.css" />
   </head>

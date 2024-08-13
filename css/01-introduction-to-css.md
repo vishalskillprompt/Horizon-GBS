@@ -1,4 +1,4 @@
-# Introduction to CSS
+### 1. Introduction to CSS
 
 ![introduction to css](./assets/introduction-to-css.png)
 

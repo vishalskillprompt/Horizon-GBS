@@ -1,3 +1,8 @@
+### 1. Remaining tags
+
+**1. iframe- youtube, video**
+
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -29,3 +34,11 @@
     </div>
   </body>
 </html>
+```
+
+**3. video, audio, canvas, svg**
+
+- [video example](https://www.w3schools.com/html/html5_video.asp)
+- [audio example](https://www.w3schools.com/html/html5_audio.asp)
+- [html canvas](https://www.w3schools.com/html/html5_canvas.asp)
+- [html svg](https://www.w3schools.com/html/html5_svg.asp)
